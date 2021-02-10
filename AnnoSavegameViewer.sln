@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratedA7s", "src\AnnoSav
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SavegameViewer", "SavegameViewer", "{613D6906-0347-4D15-AE50-E4C558878B46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web", "web\web.csproj", "{26155D14-61FA-4011-B339-8BE8DC70AE06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{76F050AF-B74B-4D5E-877E-21AE81DE3F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76F050AF-B74B-4D5E-877E-21AE81DE3F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76F050AF-B74B-4D5E-877E-21AE81DE3F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26155D14-61FA-4011-B339-8BE8DC70AE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26155D14-61FA-4011-B339-8BE8DC70AE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26155D14-61FA-4011-B339-8BE8DC70AE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26155D14-61FA-4011-B339-8BE8DC70AE06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
