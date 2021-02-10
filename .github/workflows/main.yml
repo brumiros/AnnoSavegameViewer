@@ -24,6 +24,6 @@ jobs:
           BRANCH: gh-pages
           FOLDER: web/release/wwwroot
       - name: Change base-tag in index.html from / to annosavegameviewer
-        run: sed -i 's/<base href="\/" \/>/<base href="\/AnnoSavegameViewer\/" \/>/g' web/release/wwwroot/index.html  
+        run: sed -i 's/<base href="\/" \/>/<base href="\/AnnoSavegameViewer\/" \/>/g' web/release/wwwroot/index.html  && cat web/release/wwwroot/index.html
       - name: Add .nojekyll file
-        run: touch web/release/wwwroot/.nojekyll
+        run: touch web/release/wwwroot/.nojekyll && ls -la web/release/wwwroot
